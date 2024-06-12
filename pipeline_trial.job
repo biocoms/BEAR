@@ -1,0 +1,14 @@
+#!/bin/sh
+#$ -cwd
+#$ -pe smp 16
+#$ -M shrivishalini-rajaram@uiowa.edu
+#$ -m beas
+#$ -o BEAR/BEAR/bear_test_out.log
+#$ -e BEAR/BEAR/bear_test_error.log
+#$ -V
+
+conda activate bear_final
+
+cd BEAR/BEAR/
+
+sh run_pipeline.sh inputs/test/ 20
