@@ -4,7 +4,7 @@
 
 ## running the pipeline
 
-`sh run_pipeline.sh $input_file_path $number_of_features`
+ ```sh run_pipeline.sh $input_file_path $number_of_features```
 
 ### example:
 `sh run_pipeline.sh inputs/test/multi_data.csv 100`
