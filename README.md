@@ -40,7 +40,7 @@ cd BEAR
 ```
 ### Example:
 ```bash
-sh run_pipeline.sh inputs/test/multi_data.csv 100
+sh run_pipeline.sh inputs/test/multi_data.csv 20
 ```
 ## Submitting as a job file
 ```bash
