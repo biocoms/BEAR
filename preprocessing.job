@@ -1,0 +1,12 @@
+#!/bin/sh
+#$ -cwd
+#$ -pe smp 56
+#$ -M shrivishalini-rajaram@uiowa.edu
+#$ -m beas
+#$ -o BEAR/BEAR_Binary/preprocess_jihyun_out.log
+#$ -e BEAR/BEAR_Binary/preprocess_jihyun_error.log
+#$ -V
+
+conda activate bear_final
+
+python BEAR/BEAR_Binary/preprocessing.py
