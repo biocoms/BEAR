@@ -62,7 +62,7 @@ for input_file in ${input_dir}*.csv; do
     bash pipe_step_3_FA.sh $number_of_features
     cd ..
     cp -r pipe_step_3_FAggregation/pipe_step_3_make_venn/output_vennDiagram/ "outputs/${file_name}/pipe_step_3_FAggregation/"
-    cp -r pipe_step_3_FAggregation/pipe_step_3_make_aggregates/ "outputs/${file_name}/pipe_step_3_FAggregation/"
+    #cp -r pipe_step_3_FAggregation/pipe_step_3_make_aggregates/ "outputs/${file_name}/pipe_step_3_FAggregation/"
     cp -r pipe_step_3_FAggregation/pipe_step_3_make_ensemble/ensemble_output/ "outputs/${file_name}/pipe_step_3_FAggregation/"
 
     cd pipe_step_4_clf/
